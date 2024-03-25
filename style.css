@@ -1,0 +1,44 @@
+.button{
+ border: 2px solid #cc7271 !important;
+ color: #cc7271  !important;
+
+}
+
+.mkdf-btn.mkdf-btn-outline:not(.mkdf-btn-custom-border-hover):hover {
+    background-color: #cc7271 !important;
+    color: whitesmoke !important;
+    border: 2px solid #cc7271 !important ;
+}
+.button1{
+    background-color: #cc7271 !important;
+    color: whitesmoke !important;
+    border: 2px solid #cc7271 !important;
+}
+.wp-caption, img {
+    height: auto;
+    max-width: 65em !important;
+}
+.owl-stage{
+    /* transform: translate3d(-1950px, 0px, 0px) !important;
+    transition: all 1s ease 1s !important;
+    width: 3900px !important; */
+
+}
+/* responsive code starts here */
+
+@media only screen and (max-width: 600px) {
+    .Home-left{
+        margin-bottom: 7em !important;
+        margin-top: -5em !important;
+        width: unset !important;
+    }
+    .button1{
+        margin-bottom: 3em;
+    }
+    .bottom-heading{
+        font-size: 20px  !important;
+    }
+    .scroll-padding{
+        padding:200px 0px 190px !important;
+    }
+  }
